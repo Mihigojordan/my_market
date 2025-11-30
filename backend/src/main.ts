@@ -18,7 +18,7 @@ app.enableCors({
     'http://localhost:5173',
     'http://localhost:4173',
     'https://my-market-ze0m.onrender.com',
-    'https://www.abyinventory.com'  // Add this
+    'https://www.MY SYSTEM.com'  // Add this
   ].filter(Boolean),
   methods: ['GET', 'HEAD', 'PUT', 'PATCH', 'POST', 'DELETE', 'OPTIONS'],
   allowedHeaders: [

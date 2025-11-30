@@ -996,7 +996,7 @@ const Dashboard = () => {
         <div className="p-3 sm:p-4">
           <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-3">
             <div className="min-w-0 flex-1">
-              <h1 className="text-lg sm:text-xl font-bold text-gray-900">Umusingi Hardware Inventory Dashboard</h1>
+              <h1 className="text-lg sm:text-xl font-bold text-gray-900">MY SYSTEM Inventory Dashboard</h1>
               <p className="text-gray-600 mt-1 text-xs">Welcome, {user?.firstname} {user?.lastname} - Role-based inventory access</p>
             </div>
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3">

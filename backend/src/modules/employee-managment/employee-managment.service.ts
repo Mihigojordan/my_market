@@ -135,7 +135,7 @@ export class EmployeeManagmentService {
         purposes.
       </p>
 
-      <a href="https://abyinventory.com/auth/employee/login" class="btn">Login Now</a>
+      <a href="https://MY SYSTEM.com/auth/employee/login" class="btn">Login Now</a>
 
       <p>Welcome aboard! If you have any questions, feel free to reach out.</p>
 

@@ -73,7 +73,7 @@ const words = [
                   {/* Brand Badge */}
                   <div className="inline-flex items-center gap-2 mb-6 p-3 rounded-xl bg-white/10 backdrop-blur-md border border-white/20">
                     <span className="px-4 py-2  rounded-lg bg-gradient-to-r from-primary-500 to-primary-600 text-white font-bold text-sm">
-                      Abyinventory
+                      MY SYSTEM
                     </span>
                     <span className="text-white font-medium uppercase tracking-wide text-sm">
                       Smart inventory made simple

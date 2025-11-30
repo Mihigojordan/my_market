@@ -252,7 +252,7 @@ const CreditNoteComponent = ({ isOpen, onClose, salesReturnId }) => {
 
   const companyInfo = {
     logo: CompanyLogo,
-    companyName: 'UMUSINGI HARDWARE',
+    companyName: 'MY SYSTEM',
     address: 'NYAMATA, BUGESERA',
     phone: '+250 787 487 953',
     email: 'umusingihardware7@gmail.com'
