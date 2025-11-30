@@ -16,8 +16,8 @@ export default defineConfig({
                 'mstile-144x144.png'
             ],
             manifest: {
-                name: 'ABY Inventory Management',
-                short_name: 'ABY Inventory',
+                name: 'MY SYSTEM Management',
+                short_name: 'MY SYSTEM',
                 description: 'Professional inventory management application for businesses',
                 theme_color: '#0ea5e9',
                 background_color: '#f0f9ff',
@@ -104,14 +104,14 @@ export default defineConfig({
                         sizes: '1280x720',
                         type: 'image/png',
                         form_factor: 'wide',
-                        label: 'Desktop view of ABY Inventory Management'
+                        label: 'Desktop view of MY SYSTEM Management'
                     },
                     {
                         src: '/screenshots/mobile.png',
                         sizes: '375x812',
                         type: 'image/png',
                         form_factor: 'narrow',
-                        label: 'Mobile view of ABY Inventory Management'
+                        label: 'Mobile view of MY SYSTEM Management'
                     }
                 ]
             },

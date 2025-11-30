@@ -140,7 +140,7 @@ const InstallButton = () => {
             </div>
             <div className="min-w-0 flex-1">
               <div className="text-sm font-semibold text-gray-800 truncate">
-                Install Aby Inventory
+                Install MY SYSTEM
               </div>
               <div className="text-xs text-gray-500 truncate">
                 Quick access from your home screen

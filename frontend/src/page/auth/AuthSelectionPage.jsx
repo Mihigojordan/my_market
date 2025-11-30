@@ -29,7 +29,7 @@ const AuthSelectionPage = () => {
             <Package className="w-10 h-10 text-white" />
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            ABY Inventory System
+            MY SYSTEM System
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Welcome to your inventory management platform. Choose your role to continue.
@@ -130,7 +130,7 @@ const AuthSelectionPage = () => {
         {/* Footer */}
         <div className="text-center mt-12">
           <p className="text-gray-500 text-sm">
-            Secure access to ABY Inventory Management System
+            Secure access to MY SYSTEM Management System
           </p>
           <div className="flex items-center justify-center space-x-4 mt-4">
             <div className="flex items-center space-x-2">

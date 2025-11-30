@@ -88,7 +88,7 @@ const EmployeeLoginPage = () => {
               <Users className="w-8 h-8 text-white" />
             </div>
             <h2 className="text-3xl font-bold text-gray-900 mb-2">Employee Portal</h2>
-            <p className="text-gray-600">Sign in to your ABY Inventory Employee dashboard</p>
+            <p className="text-gray-600">Sign in to your MY SYSTEM Employee dashboard</p>
           </div>
 
           {/* Error Message */}

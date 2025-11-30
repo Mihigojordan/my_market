@@ -78,7 +78,7 @@ export default function NotFoundPage() {
 
         {/* Error Details (for development) */}
         <div className="mt-6 text-xs text-primary-400">
-          Error Code: 404 | Page Not Found | Aby Inventory Management v2.0
+          Error Code: 404 | Page Not Found | MY SYSTEM Management v2.0
         </div>
       </div>
     </div>

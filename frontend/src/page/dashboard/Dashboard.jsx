@@ -1182,7 +1182,7 @@ const calculateStatsFromData = (data) => {
       <div className="flex items-center justify-center h-screen">
         <div className="flex items-center space-x-2">
           <RefreshCw className="w-6 h-6 animate-spin text-blue-600" />
-          <span className="text-lg font-medium text-gray-700">Loading ABY Inventory...</span>
+          <span className="text-lg font-medium text-gray-700">Loading MY SYSTEM...</span>
         </div>
       </div>
     );

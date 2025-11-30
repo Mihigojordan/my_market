@@ -397,7 +397,7 @@ const Sidebar = ({ isOpen = true, onToggle, role }) => {
             </div>
             <div>
               <h1 className="text-lg font-semibold text-gray-900">
-                ABY Inventory
+                MY SYSTEM
               </h1>
               <p className="text-[0.7rem] text-gray-500 capitalize">
                 {role} Dashboard

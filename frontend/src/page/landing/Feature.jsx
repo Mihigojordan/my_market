@@ -211,7 +211,7 @@ export default function InventoryFeaturesPage() {
         <div className="w-11/12 mx-auto px-4 sm:px-6 lg:px-8 w-11/12">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4 tracking-tight">
-              Why Choose Aby Inventory?
+              Why Choose MY SYSTEM?
             </h2>
             <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
               A scalable, secure, and user-friendly system for inventory and financial management

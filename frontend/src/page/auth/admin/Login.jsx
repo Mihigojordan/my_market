@@ -88,7 +88,7 @@ const LoginPage = () => {
               <Package className="w-8 h-8 text-white" />
             </div>
             <h2 className="text-3xl font-bold text-gray-900 mb-2">Welcome Back</h2>
-            <p className="text-gray-600">Sign in to your ABY Inventory Admin dashboard</p>
+            <p className="text-gray-600">Sign in to your MY SYSTEM Admin dashboard</p>
           </div>
 
           {/* Error Message */}

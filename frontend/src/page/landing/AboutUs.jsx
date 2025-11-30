@@ -130,7 +130,7 @@ export default function AboutPage() {
   const milestones = [
     {
       year: "2019",
-      title: "ABY Inventory Launch",
+      title: "MY SYSTEM Launch",
       description: "Launched a robust system for seamless stock and financial tracking.",
       icon: <Rocket className="w-6 h-6" />
     },
@@ -162,7 +162,7 @@ export default function AboutPage() {
 
   const testimonials = [
     {
-      quote: "ABY Inventory streamlined our warehouse operations, eliminating stock errors completely.",
+      quote: "MY SYSTEM streamlined our warehouse operations, eliminating stock errors completely.",
       author: "Patricia Uwimana",
       position: "Operations Manager",
       company: "Prime Distribution Ltd"
@@ -193,7 +193,7 @@ export default function AboutPage() {
     <div className="min-h-screen bg-gray-100 font-sans">
       {/* Header Section with Hero Image */}
         <HeaderBanner
-        title="About Aby Inventory"
+        title="About MY SYSTEM"
         subtitle="Home / About us"
         backgroundStyle="image"
         icon={<Package className="w-10 h-10 text-white" />}
@@ -222,10 +222,10 @@ export default function AboutPage() {
                 Complete Inventory Ecosystem
               </h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Aby Inventory is a digital system designed to manage and track the flow of goods, materials, and financial transactions within your organization. It ensures full control over stock, purchases, sales, and expenses while providing actionable insights for decision-making.
+                MY SYSTEM is a digital system designed to manage and track the flow of goods, materials, and financial transactions within your organization. It ensures full control over stock, purchases, sales, and expenses while providing actionable insights for decision-making.
               </p>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                From tracking stock movements like purchases, sales, stock-ins, stock-outs, and returns to synchronizing financial records such as client payments and transport costs, Aby Inventory creates a unified ecosystem that reduces errors and enhances efficiency.
+                From tracking stock movements like purchases, sales, stock-ins, stock-outs, and returns to synchronizing financial records such as client payments and transport costs, MY SYSTEM creates a unified ecosystem that reduces errors and enhances efficiency.
               </p>
 
               <motion.div
@@ -450,7 +450,7 @@ export default function AboutPage() {
               variants={itemVariants}
               className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto"
             >
-              Milestones in building Aby Inventory Management
+              Milestones in building MY SYSTEM Management
             </motion.p>
           </motion.div>
 
@@ -548,7 +548,7 @@ export default function AboutPage() {
               variants={itemVariants}
               className="text-lg sm:text-xl text-gray-600"
             >
-              How businesses thrive with Aby Inventory
+              How businesses thrive with MY SYSTEM
             </motion.p>
           </motion.div>
 
@@ -665,7 +665,7 @@ export default function AboutPage() {
               variants={itemVariants}
               className="text-xl text-primary-100 mb-8 max-w-3xl mx-auto"
             >
-              Join thousands of businesses using Aby Inventory to streamline operations, track finances, and make informed decisions.
+              Join thousands of businesses using MY SYSTEM to streamline operations, track finances, and make informed decisions.
             </motion.p>
 
             <motion.div

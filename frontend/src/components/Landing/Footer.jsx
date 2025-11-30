@@ -42,7 +42,7 @@ export default function ModernFooter() {
               <div className="bg-gradient-to-br from-blue-600 to-blue-700 p-3 rounded-xl">
                 <Warehouse className="h-6 w-6 text-white" />
               </div>
-              <h3 className="text-white font-bold text-xl">ABY Inventory</h3>
+              <h3 className="text-white font-bold text-xl">MY SYSTEM</h3>
             </div>
             <p className="text-gray-300 text-base leading-relaxed mb-6">
               Streamline your business with our advanced inventory management solution, designed for efficiency and growth.
@@ -143,7 +143,7 @@ export default function ModernFooter() {
             {/* Copyright & Legal */}
             <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-6 text-sm text-gray-400">
               <div className="flex items-center gap-1">
-                <span>© {currentYear} ABY Inventory Management. Made with </span>{' '}<span>Aby-Tech</span>
+                <span>© {currentYear} MY SYSTEM Management. Made with </span>{' '}<span>Aby-Tech</span>
               </div>
               <div className="flex space-x-4">
                 <a href="#" className="hover:text-blue-300 transition-colors">Privacy Policy</a>

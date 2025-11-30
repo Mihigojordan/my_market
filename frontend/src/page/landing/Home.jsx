@@ -135,7 +135,7 @@ const PWAInstallButton = ({ className = "" }) => {
     const IOSInstructions = () => (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
             <div className="bg-white rounded-lg p-6 max-w-sm mx-auto">
-                <h3 className="text-lg font-semibold mb-4 text-primary-900">Install ABY Inventory</h3>
+                <h3 className="text-lg font-semibold mb-4 text-primary-900">Install MY SYSTEM</h3>
                 <div className="space-y-3 text-sm">
                     <div className="flex items-center space-x-3">
                         <div className="w-8 h-8 bg-primary-100 rounded-full flex items-center justify-center text-primary-600 font-semibold">
