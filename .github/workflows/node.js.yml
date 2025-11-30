@@ -12,24 +12,6 @@ jobs:
       - name: ⏬ Checkout code
         uses: actions/checkout@v4
 
-      # === FRONTEND DEPLOYMENT ===
-      - name: 📦 Install frontend dependencies
-        run: npm install
-        working-directory: ./frontend
-
-      - name: 🛠 Build frontend (Vite)
-        run: npm run build
-        working-directory: ./frontend
-
-      - name: 📂 Upload frontend build to Shared Hosting (FTP)
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-        with:
-          server: ftp.abyinventory.com
-          username: deploy@abyinventory.com
-          password: Abyinvetory12@
-          local-dir: ./frontend/dist/
-          server-dir: /
-
       # === BACKEND DEPLOYMENT ===
       - name: 📦 Install backend dependencies
         run: npm install
@@ -46,5 +28,5 @@ jobs:
           username: root
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           source: "backend/**"
-          target: "/var/www/abyinvetory"
+          target: "/var/www/mymarket "
           strip_components: 1
