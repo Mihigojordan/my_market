@@ -442,13 +442,32 @@ const ProductManagement = ({ role }) => {
 
   const formatDate = dateString => new Date(dateString).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
   const getFirstImage = imageUrls => imageUrls?.[0] ? productService.getFullImageUrl(imageUrls[0]) : null;
-  const parseDescription = description => {
+const parseDescription = (description) => {
+  if (!description) return '';
+
+  // If it's already a string, return it (or extract .details if it's JSON string)
+  if (typeof description === 'string') {
     try {
-      return productService.parseDescription?.(description) || (typeof description === 'string' ? JSON.parse(description).details || description : JSON.stringify(description));
+      const parsed = JSON.parse(description);
+      return typeof parsed === 'object' && parsed.details ? parsed.details : description;
     } catch {
-      return description || '';
+      return description; // not JSON, just return as-is
     }
-  };
+  }
+
+  // If it's an object (common in IndexedDB after being saved)
+  if (typeof description === 'object') {
+    // Handle common patterns
+    if (description.details) return description.details;
+    if (description.text) return description.text;
+    if (description.description) return description.description;
+
+    // Fallback: stringify safely
+    return JSON.stringify(description);
+  }
+
+  return String(description);
+};
 
   const handlePageChange = (page) => {
     setCurrentPage(page);
