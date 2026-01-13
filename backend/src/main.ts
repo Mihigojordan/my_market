@@ -17,6 +17,8 @@ app.enableCors({
     process.env.CORS_ORIGIN,
     'http://localhost:5173',
     'http://localhost:4173',
+    'https://ebe.mysystem.rw',
+    'https://www.ebe.mysystem.rw',
     'https://my-market-ze0m.onrender.com',
     'https://www.MY SYSTEM.com'  // Add this
   ].filter(Boolean),
@@ -59,6 +61,6 @@ app.enableCors({
     }),
   );
 
-  await app.listen(process.env.PORT ?? 6000);
+  await app.listen(process.env.PORT ?? 1100);
 }
 bootstrap();
